@@ -9,8 +9,16 @@
 <body>
     <div class="countdown">
         <h1 id="timer">00:00:00</h1>
+        <input type="number" id="customTime" placeholder="Enter time in seconds" />
         <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resumeBtn">Resume</button>
         <button id="resetBtn">Reset</button>
+    </div>
+    <div class="system-time card">
+        <h2>Current System Time</h2>
+        <h3 class="time-instance"><span id="systemTime1"></span></h3>
+        <h3 class="time-instance"><span id="systemTime2"></span></h3>
     </div>
     <script src="script.js"></script>
 </body>
