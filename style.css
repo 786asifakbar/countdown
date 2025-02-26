@@ -75,3 +75,47 @@ input {
     font-size: 16px;
     margin: 5px;
 }
+
+.left-side {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4caf50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.left-side h2 {
+    color: #4caf50;
+}
+
+.left-side h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.system-time-card {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4caf50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.system-time-card h2 {
+    color: #4caf50;
+}
+
+.system-time-card h3 {
+    font-size: 24px;
+    color: #333;
+}

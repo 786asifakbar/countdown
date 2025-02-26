@@ -48,7 +48,7 @@ function updateSystemTime() {
     const seconds = String(now.getSeconds()).padStart(2, '0');
     const currentTime = `${hours}:${minutes}:${seconds}`;
 
-    document.getElementById('systemTime1').innerText = currentTime;
-    document.getElementById('systemTime2').innerText = currentTime; // Use the same time
+    // Update the left-side system time display
+    document.getElementById('systemTimeLeft').innerText = currentTime;
 }
 setInterval(updateSystemTime, 1000);
